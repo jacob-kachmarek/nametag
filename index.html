@@ -8,6 +8,7 @@
 
 
     <script type="module" src="app.js"></script>
+   
 
     <!-- put css fonts here -->
 
@@ -24,16 +25,22 @@
     <main>
         <p>
             Name
-            <input> <!-- user types in the name -->
-            <button>Update</button>
-            
+            <input id="name-input"> <!-- user types in the name -->
+            <button id="update-button">Update</button>
+            Pronoun
+            <input id="pronoun-input">
+            <button id="pronoun-button">Update</button>
         </p>
 
-        <div class="nametag">
+        <div id="nametag" class="nametag">
                 <p class="greeting">Hello</p>
                 <p>My name is</p>
-                <p class="name">Jacob</p>
+                <p id="name-display" class="name">Jacob</p>
+                <p id="pronoun-display" class="Pronoun">He/Him</p>
         </div>
+
+    
+
 
     </main>
 
